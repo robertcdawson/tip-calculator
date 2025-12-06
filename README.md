@@ -2,6 +2,16 @@
 
 A premium, scientifically-backed tip calculator designed to optimize your dining experience.
 
+## Screenshots
+
+<div align="center">
+  <img src="screenshots/stealth_mode.png" alt="Stealth Mode" width="45%">
+  <img src="screenshots/normal_mode.png" alt="Normal Mode" width="45%">
+</div>
+<div align="center">
+  <img src="screenshots/mobile_view.png" alt="Mobile View" width="30%">
+</div>
+
 ## Features
 
 -   **Scientific Algorithm**: Uses a non-linear formula `Tip% = Base + A * B` to calculate the perfect tip based on Service, Food, and Ambiance.
