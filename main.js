@@ -116,9 +116,14 @@ function calculate() {
   const totalPay = bill + tipAmount;
 
   // Update UI
+  const currencyFormatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  });
+
   tipPercentageDisplay.textContent = `${tipPercent.toFixed(1)}%`;
-  tipAmountDisplay.textContent = `$${tipAmount.toFixed(2)}`;
-  totalPayDisplay.textContent = `$${totalPay.toFixed(2)}`;
+  tipAmountDisplay.textContent = currencyFormatter.format(tipAmount);
+  totalPayDisplay.textContent = currencyFormatter.format(totalPay);
 }
 
 // Event Listeners
