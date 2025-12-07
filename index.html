@@ -5,7 +5,10 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Satisfaction Tip Calculator</title>
+  <meta name="theme-color" content="#ffffff">
+  <title>TipKarma</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
@@ -15,7 +18,7 @@
   <div class="app-container">
     <header>
       <div class="header-content">
-        <h1>Tip Calculator</h1>
+        <h1>TipKarma</h1>
         <div class="header-controls">
           <button id="themeBtn" class="icon-btn" aria-label="Toggle Theme">
             <!-- Eye Icon (Stealth) / Palette (Normal) - Handled by JS, but default is Eye -->
@@ -131,6 +134,15 @@
     </div>
   </div>
   <script type="module" src="/main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => console.log('SW registered:', registration))
+          .catch(error => console.log('SW registration failed:', error));
+      });
+    }
+  </script>
 </body>
 
 </html>
