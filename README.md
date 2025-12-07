@@ -1,6 +1,8 @@
-# Tip Calculator
+# TipKarma
 
-A premium, scientifically-backed tip calculator designed to optimize your dining experience.
+**Give the tip they earned.**
+
+TipKarma is a premium, scientifically-backed tip calculator designed to optimize your dining experience. It not only calculates the math but weighs the *Karma* of the service, food, and ambiance to suggest the perfect reward.
 
 ## Screenshots
 
@@ -14,12 +16,13 @@ A premium, scientifically-backed tip calculator designed to optimize your dining
 
 ## Features
 
--   **Scientific Algorithm**: Uses a non-linear formula `Tip% = Base + A * B` to calculate the perfect tip based on Service, Food, and Ambiance.
+-   **Karmic Algorithm**: Uses a non-linear formula `Tip% = Base + A * B` to calculate the perfect tip based on Service, Food, and Ambiance.
 -   **Dual Themes**:
     -   **Stealth Mode (Default)**: A discreet, dark Zinc theme for low-profile usage.
     -   **Normal Mode**: A premium Dark/Gold/Pink theme for a richer visual experience.
--   **Smart Logic**: Automatically disables "Ambiance" rating for Takeout orders.
--   **Privacy Focused**: All calculations happen locally in your browser.
+-   **Context Aware**: Automatically disables "Ambiance" rating for Takeout orders because fairness matters.
+-   **Privacy Focused**: All Karma calculations happen locally in your browser.
+-   **Installable (PWA)**: Add to your home screen for instant access to tipping wisdom.
 
 ## Tech Stack
 

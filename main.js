@@ -144,6 +144,7 @@ function toggleAmbiance() {
 }
 
 // Initialize
+console.log('TipKarma Initialized');
 initRating('foodRating', 'food');
 initRating('serviceRating', 'service');
 initRating('ambianceStars', 'ambiance');

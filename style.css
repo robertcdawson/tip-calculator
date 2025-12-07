@@ -166,6 +166,11 @@ input[type="range"]::-webkit-slider-runnable-track {
   font-weight: 600;
 }
 
+#tipAmount {
+  color: #fbbf24; /* Amber-400 */
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.2);
+}
+
 .divider {
   height: 1px;
   background: var(--glass-border);
